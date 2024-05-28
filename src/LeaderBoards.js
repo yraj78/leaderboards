@@ -3,11 +3,15 @@ import React from 'react';
 const LeaderBoards = () => {
     return (
         <div className='container'>
-            <h1 className='heading'><marquee>LeaderBoards  <i class="fa-solid fa-chess-king" style={{ color: '#56bf4f' }}></i></marquee></h1>
+            <h1 className="heading">
+                <div className="scroll-container">
+                    <span className="scroll-text">LeaderBoards <i className="fa-solid fa-chess-king" style={{ color: '#56bf4f' }}></i></span>
+                </div>
+            </h1>
             <div className='box'>
                 <div className='basic-backtest'>
                     <div className='basic-backtest-row'>
-                        <p>Basic Backtest <i class="fa-regular fa-circle-check fa-beat" style={{ color: '#56bf4f' }}></i></p>
+                        <p>Basic Backtest <i className="fa-regular fa-circle-check fa-beat" style={{ color: '#56bf4f' }}></i></p>
                         <div className="mb-2 input-group">
                             <span className="input-group-text">Slippage</span>
                             <select className="form-select">
@@ -42,7 +46,7 @@ const LeaderBoards = () => {
                                     Selling with re entr
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.96
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.96
                                 </td>
                                 <td>
                                     381845
@@ -57,7 +61,7 @@ const LeaderBoards = () => {
                                     -
                                 </td>
                                 <td>
-                                    <a href='/'>View <i class="fa-solid fa-circle-info " style={{color: '#56bf4f'}}></i></a>
+                                    <a href='/'>View <i className="fa-solid fa-circle-info " style={{ color: '#56bf4f' }}></i></a>
                                 </td>
                             </tr>
 
@@ -69,7 +73,7 @@ const LeaderBoards = () => {
                                     strategy_name
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.62
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.62
                                 </td>
                                 <td>
                                     268872.5
@@ -84,7 +88,7 @@ const LeaderBoards = () => {
                                     500
                                 </td>
                                 <td>
-                                    <a href='/'>Buy <i class="fa-solid fa-handshake-simple" style={{color: '#56bf4f',marginLeft:'8px'}}></i></a>
+                                    <a href='/'>Buy <i className="fa-solid fa-handshake-simple" style={{ color: '#56bf4f', marginLeft: '8px' }}></i></a>
                                 </td>
                             </tr>
 
@@ -96,7 +100,7 @@ const LeaderBoards = () => {
                                     Based on premium and
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.42
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.42
                                 </td>
                                 <td>
                                     255425
@@ -111,7 +115,7 @@ const LeaderBoards = () => {
                                     -
                                 </td>
                                 <td>
-                                    <a href='/'>View <i class="fa-solid fa-circle-info " style={{color: '#56bf4f'}}></i></a>
+                                    <a href='/'>View <i className="fa-solid fa-circle-info " style={{ color: '#56bf4f' }}></i></a>
                                 </td>
                             </tr>
 
@@ -123,7 +127,7 @@ const LeaderBoards = () => {
                                     strategy_name
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.22
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.22
                                 </td>
                                 <td>
                                     370845
@@ -138,7 +142,7 @@ const LeaderBoards = () => {
                                     -
                                 </td>
                                 <td>
-                                    <a href='/'>View <i class="fa-solid fa-circle-info " style={{color: '#56bf4f'}}></i></a>
+                                    <a href='/'>View <i className="fa-solid fa-circle-info " style={{ color: '#56bf4f' }}></i></a>
                                 </td>
                             </tr>
 
@@ -150,7 +154,7 @@ const LeaderBoards = () => {
                                     strategy_name
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.22
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.22
                                 </td>
                                 <td>
                                     370845
@@ -165,7 +169,7 @@ const LeaderBoards = () => {
                                     -
                                 </td>
                                 <td>
-                                    <a href='/'>View <i class="fa-solid fa-circle-info " style={{color: '#56bf4f'}}></i></a>
+                                    <a href='/'>View <i className="fa-solid fa-circle-info " style={{ color: '#56bf4f' }}></i></a>
                                 </td>
                             </tr>
 
@@ -177,7 +181,7 @@ const LeaderBoards = () => {
                                     Based on premium wit
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.01
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 3.01
                                 </td>
                                 <td>
                                     135980
@@ -192,7 +196,7 @@ const LeaderBoards = () => {
                                     -
                                 </td>
                                 <td>
-                                    <a href='/'>View <i class="fa-solid fa-circle-info " style={{color: '#56bf4f'}}></i></a>
+                                    <a href='/'>View <i className="fa-solid fa-circle-info " style={{ color: '#56bf4f' }}></i></a>
                                 </td>
                             </tr>
 
@@ -204,7 +208,7 @@ const LeaderBoards = () => {
                                     strategy_name
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 2.76
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 2.76
                                 </td>
                                 <td>
                                     267867.5
@@ -219,7 +223,7 @@ const LeaderBoards = () => {
                                     -
                                 </td>
                                 <td>
-                                    <a href='/'>View <i class="fa-solid fa-circle-info " style={{color: '#56bf4f'}}></i></a>
+                                    <a href='/'>View <i className="fa-solid fa-circle-info " style={{ color: '#56bf4f' }}></i></a>
                                 </td>
                             </tr>
 
@@ -231,7 +235,7 @@ const LeaderBoards = () => {
                                     Wait and trade_Save
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 2.62
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 2.62
                                 </td>
                                 <td>
                                     178252.5
@@ -246,7 +250,7 @@ const LeaderBoards = () => {
                                     -
                                 </td>
                                 <td>
-                                    <a href='/'>View <i class="fa-solid fa-circle-info " style={{color: '#56bf4f'}}></i></a>
+                                    <a href='/'>View <i className="fa-solid fa-circle-info " style={{ color: '#56bf4f' }}></i></a>
                                 </td>
                             </tr>
 
@@ -258,7 +262,7 @@ const LeaderBoards = () => {
                                     iron condor
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 2.44
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 2.44
                                 </td>
                                 <td>
                                     176420
@@ -273,7 +277,7 @@ const LeaderBoards = () => {
                                     -
                                 </td>
                                 <td>
-                                    <a href='/'>View <i class="fa-solid fa-circle-info " style={{color: '#56bf4f'}}></i></a>
+                                    <a href='/'>View <i className="fa-solid fa-circle-info " style={{ color: '#56bf4f' }}></i></a>
                                 </td>
                             </tr>
 
@@ -285,7 +289,7 @@ const LeaderBoards = () => {
                                     strategy_name
                                 </td>
                                 <td>
-                                    <i class="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 2.04
+                                    <i className="fa-solid fa-arrow-trend-up" style={{ color: '#56bf4f' }}></i> 2.04
                                 </td>
                                 <td>
                                     244555
@@ -300,7 +304,7 @@ const LeaderBoards = () => {
                                     -
                                 </td>
                                 <td>
-                                    <a href='/'>View <i class="fa-solid fa-circle-info " style={{color: '#56bf4f'}}></i></a>
+                                    <a href='/'>View <i className="fa-solid fa-circle-info " style={{ color: '#56bf4f' }}></i></a>
                                 </td>
                             </tr>
                         </tbody>
